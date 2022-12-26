@@ -1,0 +1,309 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+header {
+  width: 1200px;
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+
+.i-need-this {    
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #756157;
+  border-style: none;
+  padding: 10px 40px;
+  color: white;
+   font-weight: 700;
+  border-radius: 4px;
+}
+
+.Sedona h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  }
+
+.Sedona p {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  }
+
+.text1 {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+section.find-hotel h2 {
+  margin-top: 91px;
+  margin-bottom: 0;
+}
+
+section.find-hotel {
+  height: 417px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.find-hotel .text {
+color: #333333;
+  text-align: center;
+  font-weight: 400px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.find-hotel .search {
+  background: #756157;
+  padding: 12px 15px;
+  border-radius: 4px;
+  border-style: none;
+  margin-bottom: 93px;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  Width: 574px;
+  Height: 60px;
+}
+
+section.welc {
+  background-image: url(SedonaImages/index-background.png);
+  width: 1200px;
+  height: 485px;
+}
+
+section.Sedona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.Sedona h2 {
+  margin: 63px auto auto;
+}
+
+section.Sedona p {
+  margin: 31px auto 90px;
+  justify-self: flex-end;
+}
+
+
+section.welc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages-list {
+  font-size: 18px;
+  line-height: 21px;
+}
+  
+.advantages-list img + p:nth-child(2),
+.advantages-list p:first-child {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+  
+.advantages-list .advantage-n1,
+.advantages-list .advantage-n2 {
+  color: #FFFFFF;
+}
+
+div.advantage-n1,
+div.advantage-n2 {
+  background: #82B3D3;
+}
+
+div.housing,
+div.souvenirs,
+div.advantage-n3,
+div.advantage-n5 {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+div.advantage-n4 {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+section.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+section.advantages-list .advantage {
+  height: 384px;
+  width: 400px;
+}
+  
+section.advantages-list .text {
+  height: 230px;
+  margin: 92px 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+section.advantages-list .text p {
+  margin: 0;
+}
+  
+ul.navigation-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation-list li {
+  margin: auto;
+}
+
+nav.navigation {
+  align-items: center ;
+  width: 991px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-user li.navigation-item{
+  margin-right: 30px;
+  margin-left: 0px;
+}
+
+li.navigation-item {
+  margin-left: 30px;
+}
+
+.logo {
+  margin-left: 70px;
+}
+
+ul.navigation-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 45px 0 35px 70px;
+}
+
+footer {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h2 {
+  justify-self: center;
+}
+
+.number {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+footer.navigation-item-footer {
+  margin: 0;
+  padding: 0;
+  margin: 45px 0 35px 70px;
+}
+
+section.sub {
+  color: white;
+  Width: 1200px;
+  Height: 411px;
+  background-image: url(SedonaFiles/background-blur.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.sub h2 {
+  margin-top: 80px;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase; 
+}
+
+section.sub p {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 29px;
+}
+
+.newsletter-button {
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 200px;
+  height: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  background: #82B3D3;
+  padding: 12px 25px;
+  border-style: none;
+}
+
+.field {
+  border-style: none;
+  padding: 12px 25px;
+  width: 600px;
+  font-size: 20px;
+  height: 36px;
+  border-radius: 10px 0 0 10px;
+  margin-right: -5px;
+}
+
+.newsletter-form {
+  margin: 46px auto 94px;
+  justify-self: flex-end;
+}
+
+ul {
+  list-style: none; 
+}
+
+a {
+  text-decoration: none; 
+  color: black;
+}
+
+.navigation-item a strong {
+  font-size: 20px;
+  line-height: 26px;
+}
